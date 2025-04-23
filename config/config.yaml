@@ -1,0 +1,8 @@
+db:
+  host: localhost
+  port: 5432
+  username: postgres
+  password: Shohin2552
+  dbname: queue-system
+  sslmode: disable
+  timezone: Asia/Dushanbe

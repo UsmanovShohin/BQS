@@ -1,0 +1,8 @@
+package models
+
+type Admin struct {
+	ID        int    `json:"id"`
+	Username  string `json:"username"`
+	Password  string `json:"-"`
+	CreatedAt string `json:"created_at"`
+}
