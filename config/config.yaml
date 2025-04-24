@@ -1,4 +1,4 @@
-db:
+database:
   host: localhost
   port: 5432
   username: postgres
@@ -6,3 +6,9 @@ db:
   dbname: queue-system
   sslmode: disable
   timezone: Asia/Dushanbe
+
+server:
+  host: localhost
+  port: 8080
+  write_timeout: 15s
+  read_timeout: 15s
